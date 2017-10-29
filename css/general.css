@@ -1,0 +1,28 @@
+#page {
+    width: 1650px;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+}
+
+#outport {
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid black;
+}
+
+canvas {
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid grey;
+}
+
+#dashboard {
+    float: right;
+    margin: 5px;
+    padding: 15px;
+}
+
+.DataLabel {
+    display: inline-block;
+    width: 25ex;
+}
