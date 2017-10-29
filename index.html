@@ -16,6 +16,7 @@
         <script type="text/javascript" src="javascript/gates/scale.js"></script>
 
         <!-- Application files -->
+        <script type="text/javascript" src="javascript/world.js"></script>
         <script type="text/javascript" src="javascript/main.js"></script>
     </head>
     <body onload="main();">
@@ -26,7 +27,7 @@
                         <legend>Geometrical Data</legend>
                         <span class="DataLabel"> Apparent radius [px]: (<span id="data-apparent_radius"></span>) </span> <input id="apparent_radius" type="range" value="400" min="10" max="400"/><br/>
                         <span class="DataLabel"> Planet Radius [km]:(<span id="data-planet_radius"></span>)    </span> <input id="planet_radius" type="range" min="1000" max="10000" value="6400"><br/>
-                        <span class="DataLabel"> Scale [px/km]:            </span> <input id="scale" type="text" disabled="true"/><br/>
+                        <span class="DataLabel"> Scale [px/km]:            </span> <input id="scale" type="number" disabled="true"/><br/>
                     </fieldset>
 
                     <fieldset>
@@ -46,7 +47,7 @@
                 </form>
             </div>
             <div id="outport">
-                <canvas> </canvas>
+                <canvas id="viewport" width="1000" height="1000"> </canvas>
             </div>
 
         </div>

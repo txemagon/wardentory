@@ -29,7 +29,7 @@ Control.prototype.subscribe = function(ev, obj, method) {
 
 Control.prototype.value = function () {
     if (!arguments.length)
-        return this.html.value
+        return this.html.valueAsNumber
 
     this.html.value = arguments[0]
 }
