@@ -16,6 +16,7 @@
         <script type="text/javascript" src="javascript/gates/scale.js"></script>
 
         <!-- Application files -->
+        <script type="text/javascript" src="javascript/tower.js"></script>
         <script type="text/javascript" src="javascript/world.js"></script>
         <script type="text/javascript" src="javascript/main.js"></script>
     </head>
@@ -32,8 +33,8 @@
 
                     <fieldset>
                         <legend>Electromagnetic Variables</legend>
-                        <span class="DataLabel"> Tower Height [km]: </span> <input id="tower_height" type="number" value="600"/><br/>
-                        <span class="DataLabel"> Frequency [Hz]:    </span> <input id="frequency" type="number" value="6.8"/><br/>
+                        <span class="DataLabel"> Tower Height [km]: </span> <input id="tower_height" type="number" value="600" min="0"/><br/>
+                        <span class="DataLabel"> Frequency [Hz]:    </span> <input id="frequency" type="number" value="6.8" min="1"/><br/>
                     </fieldset>
 
                     <fieldset>
